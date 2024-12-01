@@ -10,8 +10,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #f4f4f4;
+            background: url('fundo.jpg') no-repeat center center fixed;
+            background-size: cover;
             font-family: Arial, sans-serif;
+            color: white;
+            text-shadow: 1px 1px 2px black;
         }
         .main-image {
             margin-top: 20px;
@@ -22,11 +25,12 @@
         }
         .buttons-container {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             margin-top: 20px;
         }
         .button {
-            margin: 0 10px;
+            margin: 10px;
             cursor: pointer;
             border: none;
             background: none;
@@ -39,7 +43,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
         audio {
-            display: none;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -65,30 +69,38 @@
         <button class="button" onclick="updateContent('imagem5.jpg', 'musica5.mp3')">
             <img src="imagem5.jpg" alt="Imagem 5">
         </button>
-    </div>
-
-  <button class="button" onclick="updateContent('imagem6.jpg', 'musica6.mp3')">
+        <button class="button" onclick="updateContent('imagem6.jpg', 'musica6.mp3')">
             <img src="imagem6.jpg" alt="Imagem 6">
         </button>
-    </div>
-  <button class="button" onclick="updateContent('imagem7.jpg', 'musica7.mp3')">
+        <button class="button" onclick="updateContent('imagem7.jpg', 'musica7.mp3')">
             <img src="imagem7.jpg" alt="Imagem 7">
         </button>
-    </div>
-  <button class="button" onclick="updateContent('imagem8.jpg', 'musica8.mp3')">
+        <button class="button" onclick="updateContent('imagem8.jpg', 'musica8.mp3')">
             <img src="imagem8.jpg" alt="Imagem 8">
         </button>
-    </div>
-  <button class="button" onclick="updateContent('imagem9.jpg', 'musica9.mp3')">
+        <button class="button" onclick="updateContent('imagem9.jpg', 'musica9.mp3')">
             <img src="imagem9.jpg" alt="Imagem 9">
         </button>
-    </div>
-  <button class="button" onclick="updateContent('imagem10.jpg', 'musica10.mp3')">
+        <button class="button" onclick="updateContent('imagem10.jpg', 'musica10.mp3')">
             <img src="imagem10.jpg" alt="Imagem 10">
         </button>
-    </div>
-  <button class="button" onclick="updateContent('imagem11.jpg', 'musica11.mp3')">
+        <button class="button" onclick="updateContent('imagem11.jpg', 'musica11.mp3')">
             <img src="imagem11.jpg" alt="Imagem 11">
+        </button>
+        <button class="button" onclick="updateContent('imagem12.jpg', 'musica12.mp3')">
+            <img src="imagem12.jpg" alt="Imagem 12">
+        </button>
+        <button class="button" onclick="updateContent('imagem13.jpg', 'musica13.mp3')">
+            <img src="imagem13.jpg" alt="Imagem 13">
+        </button>
+        <button class="button" onclick="updateContent('imagem14.jpg', 'musica14.mp3')">
+            <img src="imagem14.jpg" alt="Imagem 14">
+        </button>
+        <button class="button" onclick="updateContent('imagem15.jpg', 'musica15.mp3')">
+            <img src="imagem15.jpg" alt="Imagem 15">
+        </button>
+        <button class="button" onclick="updateContent('imagem16.jpg', 'musica16.mp3')">
+            <img src="imagem16.jpg" alt="Imagem 16">
         </button>
     </div>
 
